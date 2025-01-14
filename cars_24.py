@@ -10,7 +10,7 @@ encode_dict = {
 }
 
 
-model = pickle.load(open('car_price_model.pkl', 'rb'))
+model = pickle.load(open('cars_model_price_prediction.pkl', 'rb'))
 
 st.subheader('Please enter the details of the car')
 year_value = st.slider('Manufacturing Year', min_value=1990, max_value=2023, value = 2018, step = 1)
